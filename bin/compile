@@ -1,5 +1,8 @@
 #!/bin/sh
 
+apt-get clean
+apt-get update
+
 # Run the sox script
 ./bin/sox
 
