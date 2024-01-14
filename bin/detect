@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Return 0 to indicate that this buildpack should be used
+exit 0

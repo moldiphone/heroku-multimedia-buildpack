@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Install sox using apt-get
+apt-get update
+apt-get install -y sox
+
+# Make sure the command is available on the PATH
+ln -s /usr/bin/sox /app/.heroku/node/bin/sox

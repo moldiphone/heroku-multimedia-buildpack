@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Install rsvg-convert using apt-get
+apt-get update
+apt-get install -y librsvg2-bin
+
+# Make sure the command is available on the PATH
+ln -s /usr/bin/rsvg-convert /app/.heroku/node/bin/rsvg-convert
